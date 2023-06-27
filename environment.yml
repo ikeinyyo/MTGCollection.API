@@ -1,0 +1,11 @@
+name: mtg-api
+channels:
+  - defaults
+dependencies:
+  - pip==22.1.2
+  - python=3.10.9
+  - pip:
+      - fastapi==0.97.0
+      - uvicorn==0.22.0
+      - opencensus-ext-azure==1.1.9
+      - python-dotenv==1.0.0
